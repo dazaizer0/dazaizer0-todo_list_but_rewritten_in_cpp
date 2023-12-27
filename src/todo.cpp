@@ -29,7 +29,6 @@ int main() {
             std::string what;
             std::cout << "\nadd -> ";
 
-            // Wczytaj całą linię tekstu, w tym słowa ze spacjami
             std::getline(std::cin >> std::ws, what);
 
             todo.list[todo_length + 1] = what;
